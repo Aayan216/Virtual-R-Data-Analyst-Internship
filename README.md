@@ -1,60 +1,68 @@
 # Virtual R Data Analyst Internship
 
-This repository contains the work completed during my **Virtual R Data Analyst Internship**, covering data cleaning, visualization, statistical analysis, and predictive modeling using R.
+A collection of my work completed during the **Virtual R Data Analyst Internship**, focused on practical data analysis using **R and RStudio**.
 
-## Weekly Tasks
+The projects progress from data preparation and visualization to statistical analysis and predictive modeling, using the **Telco Customer Churn** dataset.
 
-- **Week 1:** Data Cleaning and Preliminary Analysis
-- **Week 2:** Data Visualization and Insight Communication
-- **Week 3:** Statistical Analysis and Predictive Modeling
+## 📌 Weekly Work
 
-## Tools & Technologies
+| Week | Focus | Key Work |
+|------|-------|----------|
+| **Week 1** | Data Cleaning & Preliminary Analysis | Data cleaning, missing-value checks, duplicate detection, descriptive statistics and preliminary churn analysis |
+| **Week 2** | Data Visualization & Insight Communication | Exploratory visualization, churn-rate analysis, comparisons across customer segments and insight communication |
+| **Week 3** | Statistical Analysis & Predictive Modeling | Hypothesis testing, correlation analysis, assumption checks, logistic regression, cross-validation and model evaluation |
 
-- R
-- RStudio
-- tidyverse
-- janitor
-- skimr
-- ggplot2
-- caret
-- pROC
-- broom
-- car
+## 🛠️ Tools & Technologies
 
-## Dataset
+- **Language:** R
+- **IDE:** RStudio
+- **Data Analysis:** tidyverse, janitor, skimr
+- **Visualization:** ggplot2
+- **Statistical & ML:** caret, pROC, broom, car
+- **Version Control:** Git & GitHub
 
-The internship projects use the **Telco Customer Churn** dataset to analyze customer behavior, identify churn patterns, and build predictive models.
+## 📊 Dataset
 
-## Repository Structure
+The projects use the **Telco Customer Churn** dataset to study customer behavior, identify factors associated with churn, communicate analytical findings, and build a classification model.
+
+## 📂 Repository Structure
 
 ```text
-Week-1/
-├── Dataset/
-├── R-Script/
-├── Screenshots/
-└── Report/
-
-Week-2/
-├── Dataset/
-├── R-Script/
-├── Screenshots/
-└── Report/
-
-Week-3/
-├── Dataset/
-├── R-Script/
-├── Screenshots/
-└── Report/
+Virtual-R-Data-Analyst-Internship/
+│
+├── Week-1/
+│   ├── Dataset/
+│   ├── R-Script/
+│   ├── Screenshots/
+│   └── Report/
+│
+├── Week-2/
+│   ├── Dataset/
+│   ├── R-Script/
+│   ├── Screenshots/
+│   └── Report/
+│
+├── Week-3/
+│   ├── Dataset/
+│   ├── R-Script/
+│   ├── Screenshots/
+│   └── Report/
+│
+└── README.md
 ```
 
-## Progress
+## 📈 Progress
 
-- ✅ Week 1 completed
-- ✅ Week 2 completed
-- ✅ Week 3 completed
+- ✅ **Week 1** — Completed
+- ✅ **Week 2** — Completed
+- ✅ **Week 3** — Completed
 
-More internship work will be added as the program progresses.
+## 🎯 Skills Demonstrated
 
-## Author
+**Data Cleaning → Exploratory Analysis → Data Visualization → Statistical Testing → Predictive Modeling → Model Evaluation → Insight Communication**
 
-**Aayan**
+## 👤 Author
+
+**Aayan**  
+B.Tech — Computer Science & Information Technology
+
