@@ -1,0 +1,42 @@
+$Tenure_TotalCharges
+
+	Pearson's product-moment correlation
+
+data:  data$tenure and data$total_charges
+t = 123.05, df = 7041, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.8186189 0.8334517
+sample estimates:
+      cor 
+0.8261784 
+
+
+$Tenure_MonthlyCharges
+
+	Pearson's product-moment correlation
+
+data:  data$tenure and data$monthly_charges
+t = 21.472, df = 7041, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.2258523 0.2696936
+sample estimates:
+      cor 
+0.2478999 
+
+
+$MonthlyCharges_TotalCharges
+
+	Pearson's product-moment correlation
+
+data:  data$monthly_charges and data$total_charges
+t = 71.997, df = 7041, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.6375142 0.6644242
+sample estimates:
+      cor 
+0.6511738 
+
+

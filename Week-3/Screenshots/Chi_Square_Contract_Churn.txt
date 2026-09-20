@@ -1,0 +1,15 @@
+$Contract_Table
+                
+                   No  Yes
+  Month-to-month 2220 1655
+  One year       1307  166
+  Two year       1647   48
+
+$Chi_Square_Test
+
+	Pearson's Chi-squared test
+
+data:  contract_table
+X-squared = 1184.6, df = 2, p-value < 2.2e-16
+
+

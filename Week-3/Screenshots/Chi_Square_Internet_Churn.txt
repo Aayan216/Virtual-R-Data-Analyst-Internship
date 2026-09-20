@@ -1,0 +1,15 @@
+$Internet_Table
+             
+                No  Yes
+  DSL         1962  459
+  Fiber optic 1799 1297
+  No          1413  113
+
+$Chi_Square_Test
+
+	Pearson's Chi-squared test
+
+data:  internet_table
+X-squared = 732.31, df = 2, p-value < 2.2e-16
+
+

@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  monthly_charges by churn
+t = -18.408, df = 4135.8, p-value < 2.2e-16
+alternative hypothesis: true difference in means between group No and group Yes is not equal to 0
+95 percent confidence interval:
+ -14.57957 -11.77284
+sample estimates:
+ mean in group No mean in group Yes 
+         61.26512          74.44133 
+

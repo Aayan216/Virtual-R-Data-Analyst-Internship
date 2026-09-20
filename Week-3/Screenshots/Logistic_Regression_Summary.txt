@@ -1,0 +1,59 @@
+
+Call:
+glm(formula = churn ~ tenure + monthly_charges + total_charges + 
+    contract + internet_service + payment_method + senior_citizen + 
+    partner + dependents + tech_support + online_security + paperless_billing, 
+    family = binomial, data = data)
+
+Coefficients: (2 not defined because of singularities)
+                                        Estimate Std. Error z value Pr(>|z|)
+(Intercept)                           -3.678e-01  2.212e-01  -1.663 0.096389
+tenure                                -5.936e-02  6.272e-03  -9.464  < 2e-16
+monthly_charges                        2.221e-03  3.727e-03   0.596 0.551178
+total_charges                          3.447e-04  7.077e-05   4.870 1.11e-06
+contractOne year                      -6.591e-01  1.065e-01  -6.188 6.10e-10
+contractTwo year                      -1.364e+00  1.755e-01  -7.769 7.90e-15
+internet_serviceFiber optic            5.638e-01  1.424e-01   3.960 7.48e-05
+internet_serviceNo                    -9.414e-01  1.589e-01  -5.924 3.14e-09
+payment_methodCredit card (automatic) -8.229e-02  1.134e-01  -0.726 0.467875
+payment_methodElectronic check         3.476e-01  9.359e-02   3.714 0.000204
+payment_methodMailed check            -7.785e-02  1.140e-01  -0.683 0.494789
+senior_citizen1                        2.453e-01  8.377e-02   2.928 0.003414
+partnerYes                             1.167e-02  7.721e-02   0.151 0.879903
+dependentsYes                         -1.687e-01  8.916e-02  -1.892 0.058546
+tech_supportNo internet service               NA         NA      NA       NA
+tech_supportYes                       -3.957e-01  8.790e-02  -4.502 6.75e-06
+online_securityNo internet service            NA         NA      NA       NA
+online_securityYes                    -4.564e-01  8.524e-02  -5.354 8.59e-08
+paperless_billingYes                   3.745e-01  7.387e-02   5.070 3.99e-07
+                                         
+(Intercept)                           .  
+tenure                                ***
+monthly_charges                          
+total_charges                         ***
+contractOne year                      ***
+contractTwo year                      ***
+internet_serviceFiber optic           ***
+internet_serviceNo                    ***
+payment_methodCredit card (automatic)    
+payment_methodElectronic check        ***
+payment_methodMailed check               
+senior_citizen1                       ** 
+partnerYes                               
+dependentsYes                         .  
+tech_supportNo internet service          
+tech_supportYes                       ***
+online_securityNo internet service       
+online_securityYes                    ***
+paperless_billingYes                  ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8150.1  on 7042  degrees of freedom
+Residual deviance: 5883.2  on 7026  degrees of freedom
+AIC: 5917.2
+
+Number of Fisher Scoring iterations: 6
+

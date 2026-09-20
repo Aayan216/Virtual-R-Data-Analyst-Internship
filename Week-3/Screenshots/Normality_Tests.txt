@@ -1,0 +1,16 @@
+$Tenure_Normality
+
+	Shapiro-Wilk normality test
+
+data:  sample(data$tenure, min(5000, nrow(data)))
+W = 0.90292, p-value < 2.2e-16
+
+
+$MonthlyCharges_Normality
+
+	Shapiro-Wilk normality test
+
+data:  sample(data$monthly_charges, min(5000, nrow(data)))
+W = 0.92325, p-value < 2.2e-16
+
+
