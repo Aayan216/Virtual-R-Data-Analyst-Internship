@@ -1,30 +1,54 @@
-# Week 4 — Comprehensive Data Analysis Reporting and Presentation
+# Week 4 — Comprehensive Data Analysis
 
 ## Project Overview
 
-Week 4 consolidates the completed **Weeks 1–3** work into one comprehensive customer churn analysis report using **R and RStudio**.
+Week 4 brings together the complete **customer churn analysis workflow** using R and RStudio, from data preparation and visualization to statistical analysis and predictive modeling.
 
-The final report brings together data cleaning, exploratory visualization, statistical analysis, predictive modeling, model evaluation, and business-oriented interpretation in a single structured document.
+## Objectives
 
-## Included Analysis
+- Prepare and validate the customer churn dataset
+- Analyze important churn patterns
+- Perform statistical and correlation analysis
+- Build a logistic regression model
+- Evaluate model performance
+- Present findings and practical insights
 
-- Data preparation and validation
-- Exploratory analysis and customer churn patterns
-- Churn analysis across contract, tenure, internet service, payment method, and customer characteristics
-- Hypothesis testing and correlation analysis
-- Statistical assumption and multicollinearity checks
-- Logistic regression for churn classification
+## Dataset
+
+**Telco Customer Churn Dataset**
+
+- 7,043 customer records
+- Customer demographics, services, contract, payment, tenure, and charges
+- Target variable: **Churn**
+
+## Analysis Performed
+
+- Data cleaning and validation
+- Exploratory data analysis
+- Churn analysis by contract, tenure, internet service, payment method, and customer group
+- Hypothesis testing
+- Correlation analysis
+- Multicollinearity analysis using VIF
+- Logistic regression
 - 80/20 train-test split
 - 5-fold cross-validation
-- Confusion matrix, Accuracy, Sensitivity, Specificity, Precision, F1-score, and ROC-AUC
+- Confusion matrix
+- ROC curve and AUC
 - Model diagnostics
-- Integrated findings, limitations, improvements, lessons learned, and future directions
 
-## Report
+## Key Results
 
-**Week4_Comprehensive_Telco_Data_Analysis_Report.docx**
-
-The report includes graphical visuals, selected R code excerpts, output snapshots, analytical explanations, statistical results, model evaluation, practical implications, lessons learned, and future directions.
+- Overall churn rate: **26.54%**
+- Month-to-month contract churn: **42.7%**
+- One-year contract churn: **11.3%**
+- Two-year contract churn: **2.8%**
+- Highest churn among internet services: **Fiber optic — 41.9%**
+- Highest churn among payment methods: **Electronic check — 45.3%**
+- Test accuracy: **79.8%**
+- Test sensitivity: **51.2%**
+- Test specificity: **90.1%**
+- Test ROC-AUC: **0.834**
+- 5-fold cross-validation ROC: **0.841**
 
 ## Tools & Technologies
 
@@ -39,9 +63,20 @@ The report includes graphical visuals, selected R code excerpts, output snapshot
 - broom
 - car
 
-## Project Outcome
+## Repository Structure
 
-The final analysis demonstrates the complete data-analysis workflow:
+\`\`\`text
+Week-4/
+├── Dataset/
+├── R-Script/
+├── Screenshots/
+├── Report/
+└── README.md
+\`\`\`
+
+## Outcome
+
+The project demonstrates a complete data analytics and predictive modeling workflow:
 
 **Data Preparation → Visualization → Statistical Analysis → Predictive Modeling → Evaluation → Interpretation**
 
