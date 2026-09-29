@@ -1,0 +1,6 @@
+
+	Pearson's Chi-squared test
+
+data:  contract_table
+X-squared = 1184.6, df = 2, p-value < 2.2e-16
+

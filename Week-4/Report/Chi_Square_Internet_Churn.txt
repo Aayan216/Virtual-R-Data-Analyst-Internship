@@ -1,0 +1,6 @@
+
+	Pearson's Chi-squared test
+
+data:  internet_table
+X-squared = 732.31, df = 2, p-value < 2.2e-16
+

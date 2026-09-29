@@ -1,0 +1,12 @@
+
+	Shapiro-Wilk normality test
+
+data:  tenure_sample
+W = 0.9041, p-value < 2.2e-16
+
+
+	Shapiro-Wilk normality test
+
+data:  monthly_sample
+W = 0.92147, p-value < 2.2e-16
+

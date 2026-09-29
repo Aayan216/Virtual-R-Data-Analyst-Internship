@@ -1,0 +1,21 @@
+WEEK 4 COMPREHENSIVE TELCO CUSTOMER CHURN ANALYSIS
+
+Dataset rows: 7043
+Dataset columns: 23
+Total missing values: 0
+Duplicate rows: 0
+Overall churn rate: 26.54 %
+
+STATISTICAL TESTS
+Monthly charges t-test p-value: < 2.22e-16
+Contract chi-square p-value: < 2.22e-16
+Internet service chi-square p-value: < 2.22e-16
+
+MODEL PERFORMANCE
+Accuracy: 0.7982
+Sensitivity: 0.5121
+Specificity: 0.9014
+Precision: 0.6519
+F1 Score: 0.5736
+Test AUC: 0.8338
+5-Fold CV ROC: 0.8412
