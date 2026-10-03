@@ -87,7 +87,8 @@ The internship work demonstrates a complete analytical workflow:
 
 **Data Cleaning → Visualization → Statistical Analysis → Predictive Modeling → Model Evaluation → Reporting**
 
+
 ## Author
 
-**Aayan**  
+**Mohammed Aayan**  
 B.Tech — Computer Science & Information Technology
